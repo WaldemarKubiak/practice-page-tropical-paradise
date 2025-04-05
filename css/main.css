@@ -119,4 +119,53 @@ body {
   width: 30%;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em;
+  height: 75vh;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/header-small-palm-3172367_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-attachment: scroll;
+}
+.header__heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 4.8rem;
+  font-weight: 300;
+}
+.header__text {
+  font-size: 1.4rem;
+}
+.header__btn {
+  margin-top: 2em;
+  padding: 0.8em 1.6em;
+  font-size: 1.4rem;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  color: #2e2e2e;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header__btn::before {
+  background-color: #eee;
 }/*# sourceMappingURL=main.css.map */
